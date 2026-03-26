@@ -56,7 +56,6 @@ abstract class BankAccount {
     }
 }
 
-// SavingsAccount
 class SavingsAccount extends BankAccount implements Printable {
     double interestRate;
 
@@ -95,7 +94,6 @@ class SavingsAccount extends BankAccount implements Printable {
     }
 }
 
-// BusinessAccount
 class BusinessAccount extends BankAccount implements Printable {
     double creditLimit;
 
@@ -132,4 +130,3 @@ class BusinessAccount extends BankAccount implements Printable {
     }
 }
 
-// Main
